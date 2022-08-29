@@ -23,13 +23,13 @@ Video Games Dataset AWS Source:
 Our dataset was the total video game reviews of Amazone Vine paid and non-paid users. The users reviewed serveral video games on a five-star scale. The analysis is broken into the two groups: paid users and non-paiid users. We will determine if there is a bias based on the two types of reviewing users.
 
 Paid Vine User Reviews:
-![bucket](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/paid_review.png)
+![paid_review](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/paid_review.png)
 -	There was a total of 94 video game reviews from paid users.
 -	There was a total of 48 five-star reviews from paid users.
 -	A total of 51% of paid users returned a five-star review.
 
 Non-Paid Vine User Reviews:
-![bucket](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/nonPaid_reviewpng.png)
+![nonPaid_review](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/nonPaid_reviewpng.png)
 -	There was a total of 40,471 video game reviews from non-paid users.
 -	There was a total of 15,663 five-star reviews from non-paid users.
 -	A total of 39% of non-paid users returned a five-star review.
@@ -45,7 +45,46 @@ The four-star reviews seem to trend in the same direction as paid users have a h
 
 ## Process
 
--	Create an AWS S3 bucket and upload Dataset
+-	Create an AWS S3 bucket and upload the Game Review Dataset
 
 AWS Bucket:
 ![bucket](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/bucket.png)
+
+Bucket Game Review Dataset:
+![dataset](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/dataset.png)
+
+-	Create AWS RDS database
+
+AWS Database:
+![database](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/database.png)
+
+-	Add database to PostgreSQL and create tables
+
+PostgreSQL AWS challenge database 
+![postgresql](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/postgresql.png)
+
+SQL schema:
+![schema](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/schema.png)
+
+-ETL using Pyspark and load to database (Amazon_Reviews_ETL.ipynb)
+
+Import data from source:
+![importData](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/importData.png)
+
+Create tables(vine_table): 
+![vineTable](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/vineTable.png)
+
+Load to database:
+![connection](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/connection.png)
+
+![loadVine](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/loadVine.png)
+
+-	Perform analysis (Vine_Review_Analysis.ipynb):
+
+Read vine_table from database and create a dataframe:
+![readDataframe](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/readDataframe.png)
+
+Final analysis:
+![paid_review](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/paid_review.png)
+
+![nonPaid_review](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/nonPaid_reviewpng.png)
