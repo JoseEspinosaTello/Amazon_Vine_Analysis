@@ -34,6 +34,9 @@ Non-Paid Vine User Reviews:
 -	There was a total of 15,663 five-star reviews from non-paid users.
 -	A total of 39% of non-paid users returned a five-star review.
 
+## Summary
+
+The analysis shows us that there is an 11%
 ## Process
 
 -	Create an AWS S3 bucket and upload Dataset
