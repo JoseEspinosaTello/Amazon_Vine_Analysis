@@ -66,7 +66,7 @@ PostgreSQL AWS challenge database
 SQL schema:
 ![schema](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/schema.png)
 
--ETL using Pyspark and load to database (Amazon_Reviews_ETL.ipynb)
+-	ETL using Pyspark and load to database (Amazon_Reviews_ETL.ipynb)
 
 Import data from source:
 ![importData](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/importData.png)
