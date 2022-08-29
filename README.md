@@ -13,7 +13,7 @@ Applications/Technologies:
 -	AWS RDS, S3
 -	PostgreSQL
 
-Dataset AWS Source: 
+Video Games Dataset AWS Source: 
 
 -	https://jchallenge-bucket.s3.amazonaws.com/amazon_reviews_us_Video_Games_v1_00.tsv.gz
 
