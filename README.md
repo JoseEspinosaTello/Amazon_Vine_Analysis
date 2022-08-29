@@ -41,6 +41,8 @@ The analysis shows us that there is an 11% difference in five-reviews as paid Vi
 In order to help determined if the five-star reviews are skewed it would be bet to compare the four-star reviews as well.
 ![bucket](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/4star.png)
 
+The four-star reviews seem to trend in the same direction with paid users having a higher percentage of four-star reviews at 26% and non-paid users sitting at 17%. This shows a bias towards paid users, same as the five-star reviews. The final analysis we can perfrm is a Natural Language Processing (NPL) on the review comments. Using NPL we can analyze the comments to determine if they are genuine, a script, or less than genuine. NPL would allow our team to combine all results and make a final assesment on the bias of the user reviews.
+
 ## Process
 
 -	Create an AWS S3 bucket and upload Dataset
