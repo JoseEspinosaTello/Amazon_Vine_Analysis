@@ -17,14 +17,26 @@ Video Games Dataset AWS Source:
 
 -	https://jchallenge-bucket.s3.amazonaws.com/amazon_reviews_us_Video_Games_v1_00.tsv.gz
 
-##Process
+
+
+## Results
+Our dataset was the total video game reviews of Amazone Vine paid and non-paid users. The users reviewed serveral video games on a five-star scale. The analysis is broken into the two groups: paid users and non-paiid users. We will determine if there is a bias based on the two types of reviewing users.
+
+Paid Vine User Reviews:
+![bucket](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/paid_review.png)
+-	There was a total of 94 video game reviews from paid users.
+-	There was a total of 48 five-star reviews from paid users.
+-	A total of 51% of paid users returned a five-star review.
+
+Non-Paid Vine User Reviews:
+![bucket](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/nonPaid_reviewpng.png)
+-	There was a total of 40,471 video game reviews from non-paid users.
+-	There was a total of 15,663 five-star reviews from non-paid users.
+-	A total of 39% of non-paid users returned a five-star review.
+
+## Process
 
 -	Create an AWS S3 bucket and upload Dataset
 
 AWS Bucket:
 ![bucket](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/bucket.png)
-
-## Results
-
-
-
