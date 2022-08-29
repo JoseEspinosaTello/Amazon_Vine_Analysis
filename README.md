@@ -36,7 +36,11 @@ Non-Paid Vine User Reviews:
 
 ## Summary
 
-The analysis shows us that there is an 11%
+The analysis shows us that there is an 11% difference in five-reviews as paid Vine users have a 51% five-star rate and non-paid Vine users have a 39% five-star rate. This means there is a small bias on the paid Vine user side, as paid users may be submitting reviews for the incentives, however, there is not enough evidence to make a conclusion. While there is a higher percentage of paid users submitting five-star reviews, the amount of paid users submitting these reviews is considerably lower, which can create skewed results.
+
+In order to help determined if the five-star reviews are skewed it would be bet to compare the four-star reviews as well.
+![bucket](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/4star.png)
+
 ## Process
 
 -	Create an AWS S3 bucket and upload Dataset
