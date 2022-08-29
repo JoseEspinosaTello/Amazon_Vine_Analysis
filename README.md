@@ -17,4 +17,14 @@ Video Games Dataset AWS Source:
 
 -	https://jchallenge-bucket.s3.amazonaws.com/amazon_reviews_us_Video_Games_v1_00.tsv.gz
 
+##Process
+
+-	Create an AWS S3 bucket and upload Dataset
+
+AWS Bucket:
+![bucket](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/bucket.png)
+
 ## Results
+
+
+
