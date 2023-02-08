@@ -47,11 +47,11 @@ The four-star reviews seem to trend in the same direction as paid users have a h
 
 -	Create an AWS S3 bucket and upload the Game Review Dataset
 
-AWS Bucket:
-![bucket](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/bucket.png)
+	AWS Bucket:
+	![bucket](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/bucket.png)
 
-Bucket Game Review Dataset:
-![dataset](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/dataset.png)
+	Bucket Game Review Dataset:
+	![dataset](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/dataset.png)
 
 -	Create AWS RDS database
 
