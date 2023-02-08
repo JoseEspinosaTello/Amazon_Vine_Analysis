@@ -61,9 +61,11 @@ AWS Database:
 -	Add database to PostgreSQL and create tables
 
 PostgreSQL AWS challenge database 
+
 ![postgresql](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/postgresql.png)
 
 SQL schema:
+
 ![schema](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/schema.png)
 
 -	ETL using Pyspark and load to database (Amazon_Reviews_ETL.ipynb)
