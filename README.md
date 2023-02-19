@@ -38,7 +38,7 @@ Non-Paid Vine User Reviews:
 
 The analysis shows us that there is an 11% difference in five-reviews as paid Vine users have a 51% five-star rate and non-paid Vine users have a 39% five-star rate. This means there is a small bias on the paid Vine user side, as paid users may be submitting reviews for the incentives, however, there is not enough evidence to make a conclusion. While there is a higher percentage of paid users submitting five-star reviews, the amount of paid users submitting these reviews is considerably lower, which can create skewed results.
 
-In order to help determined if the five-star reviews are skewed it would be bet to compare the four-star reviews as well.
+In order to help determined if the five-star reviews are skewed it would be beneficial to compare the four-star reviews as well.
 ![bucket](https://github.com/JoseEspinosaTello/Amazon_Vine_Analysis/blob/main/Resources/4star.png)
 
 The four-star reviews seem to trend in the same direction as paid users have a higher percentage of four-star reviews at 26%, compared to non-paid users sitting at 17%. This once again shows a bias towards paid users, compared to the five-star reviews. The final analysis we can perform is a Natural Language Processing (NPL) analysis on the review comments. Using NPL we can analyze the comments to determine if they are genuine, a script, or less than genuine. NPL would allow our team to combine all results and make a final assesment on the bias of the user reviews.
